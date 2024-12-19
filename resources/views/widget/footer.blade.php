@@ -1,70 +1,36 @@
-<footer class="border-top py-4">
+<!-- Footer Section -->
+<footer class="text-white py-4" style="background-color: #12131C;">
     <div class="container">
-        <div class="row justify-content-between">
-            <!-- Logo and Copyright -->
-            <div class="col-lg-3 mb-4 mb-lg-0 d-flex flex-column">
-                <a href="https://store.minegens.id" aria-label="Mine Gens" class="mb-3">
-                    <img src="https://nos.wjv-1.neo.id/intiserver/assets/customer/order-1783/logo/MineGens_Style_1.webp" alt="Logo" class="w-100">
-                </a>
-                <p class="text-muted small">&copy; Mine Gens. All rights reserved.</p>
+        <div class="row text-center">
+            <!-- Left Section: Logo -->
+            <div class="col-md-6 mb-3 mb-md-0">
+                <img src="https://nos.wjv-1.neo.id/intiserver/assets/customer/order-1783/logo/MineGens_Style_2.webp" 
+                     alt="Mine Gens Logo" style="max-width: 150px;">
+                <p class="small mb-0">© Mine Gens. All rights reserved.</p>
+                <!-- Social Icons -->
+                <div class="d-flex justify-content-center mt-2">
+                    <a href="#" class="text-white mx-2"><i class="fab fa-discord"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-youtube"></i></a>
+                </div>
             </div>
 
-            <!-- Empty Space -->
-            <div class="col-6 col-md-4 col-lg-3"></div>
-
-            <!-- Help & Contact -->
-            <div class="col-md-4 col-lg-4 mb-4 mb-lg-0 text-end">
-                <h5 class="text-white mb-3">Bantuan &amp; Kontak</h5>
-                <a class="btn btn-primary text-white w-100 d-flex align-items-center justify-content-center" href="#">
-                    <img src="https://nos.wjv-1.neo.id/intiserver/assets/customer/order-1783/icon/orbit-discord.png" style="width: 15%" alt="Discord" class="me-2">
+            <!-- Right Section: Help and Contact -->
+            <div class="col-md-6">
+                <h6 class="mb-2">Bantuan & Kontak</h6>
+                <a href="#" class="btn btn-primary px-4" style="background-color: #4C8CFF; border: none;">
+                    <img src="https://nos.wjv-1.neo.id/intiserver/assets/customer/order-1783/icon/orbit-discord.png" 
+                         alt="Discord Icon" style="width: 20px; margin-right: 8px;"> 
                     Bergabung ke Discord Kami
                 </a>
             </div>
         </div>
-
-        <!-- Divider -->
-        <hr class="my-4">
-
-        <!-- Social Media and Links -->
-        <div class="row align-items-center">
-            <div class="col-md-6 mb-4 mb-md-0">
-                <ul class="list-inline mb-0">
-                    <li class="list-inline-item">
-                        <a class="btn btn-outline-secondary btn-sm btn-icon" href="#">
-                            <i class="bi bi-discord"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="btn btn-outline-secondary btn-sm btn-icon" href="#">
-                            <i class="bi bi-instagram"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="btn btn-outline-secondary btn-sm btn-icon" href="#">
-                            <i class="bi bi-twitter"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="btn btn-outline-secondary btn-sm btn-icon" href="#">
-                            <i class="bi bi-youtube"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-md-6 text-md-end">
-                <ul class="list-inline mb-0">
-                    <li class="list-inline-item">
-                        <a class="link-secondary" href="https://store.minegens.id">Home</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="link-secondary" href="https://store.minegens.id/server-rules">Server Rules</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="link-secondary" href="https://store.minegens.id/payment-guidelines">Payment Guidelines</a>
-                    </li>
-                </ul>
-            </div>
+        <!-- Bottom Links -->
+        <div class="text-center mt-4">
+            <a href="#" class="text-white small mx-2">Home</a> /
+            <a href="#" class="text-white small mx-2">Server Rules</a> /
+            <a href="#" class="text-white small mx-2">Payment Guidelines</a>
         </div>
     </div>
 </footer>
